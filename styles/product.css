@@ -1,4 +1,4 @@
-.content {
+.content-container {
   height: 1584px;
   position: relative;
   top: 335px;
@@ -8,21 +8,71 @@
 .background-dim {
   width: 100%;
   height: 1584px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.highlight {
+  font-size: 35px;
+  font-weight: 700;
+  color: #9ebbb8;
+}
+
+.description {
+  font-size: 27px;
+  font-weight: 100;
+  line-height: 1.6em;
+  color: #ffffff;
+}
+
+.content-1,
+.content-2,
+.content-3 {
+  display: flex;
+  flex-direction: column;
 }
 
 .content-1 {
+  align-items: flex-end;
   position: absolute;
   top: 44px;
   left: 107px;
 }
+
+.content-1 img,
+.content-2 img,
+.content-3 img {
+  margin-bottom: 23px;
+}
+
+.content-1 strong,
+.content-2 strong,
+.content-3 strong {
+  margin-bottom: 12px;
+}
+
+.content-1 span {
+  text-align: right;
+}
+
 .content-2 {
   position: absolute;
   top: 553px;
   left: 72px;
 }
+
+.content-2 strong,
+.content-2 span {
+  padding-left: 13px;
+}
+
 .content-3 {
+  align-items: flex-end;
   position: absolute;
-  bottom: 161px;
+  top: 1073px;
   left: 99px;
+}
+
+.content-3 strong,
+.content-3 span {
+  padding-right: 13px;
 }
