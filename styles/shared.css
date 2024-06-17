@@ -21,11 +21,13 @@
 }
 
 .dim {
-  position: absolute;
-  top: 233px;
   width: 270px;
   height: 102px;
   background-color: rgba(0, 0, 0, 0.25);
+}
+
+.stroke {
+  border-left: 0.5px solid rgba(183, 203, 198, 0.25);
 }
 
 .nav {
