@@ -1,0 +1,12 @@
+.background-img {
+  position: relative;
+  top: 335px;
+}
+
+.background-dim {
+  position: absolute;
+  top: 335px;
+  width: 100%;
+  height: 1584px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
