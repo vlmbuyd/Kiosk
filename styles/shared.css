@@ -4,6 +4,47 @@
   box-sizing: border-box;
 }
 
+.frame {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.container {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+  margin: 0 auto;
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-color: rgb(76, 86, 83);
+}
+
+.dim {
+  position: absolute;
+  top: 233px;
+  width: 270px;
+  height: 102px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+  display: flex;
+  position: absolute;
+  top: 233px;
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 102px;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
 @font-face {
   font-family: "Pretendard";
   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
