@@ -24,6 +24,12 @@ a {
   background-color: rgb(76, 86, 83);
 }
 
+.home-btn {
+  position: relative;
+  top: 97px;
+  left: 57px;
+}
+
 .dim {
   width: 270px;
   height: 102px;
