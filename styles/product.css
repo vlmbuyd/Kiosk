@@ -1,3 +1,21 @@
+.selected {
+  background-image: url("../images/selected-btn.png");
+  /* position: relative; */
+}
+
+.selected::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  left: 540px;
+  /* width: 270px;
+  height: 102px; */
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  opacity: 0.9;
+}
+
 .content-container {
   height: 1584px;
   position: relative;
