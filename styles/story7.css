@@ -22,7 +22,7 @@ a {
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-color: rgb(76, 86, 83);
-  overflow : hidden;
+  overflow: hidden;
 }
 
 .home-btn {
@@ -30,6 +30,30 @@ a {
   top: 97px;
   left: 57px;
   cursor: pointer;
+}
+
+.selected-box {
+  position: relative;
+  top: 5px;
+}
+
+.selected::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -3px;
+  width: 270px;
+  height: 102px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  z-index: 1;
+}
+
+.selected span {
+  position: absolute;
+  top: 26px;
+  left: 84px;
+  z-index: 2;
 }
 
 .background::before {
@@ -49,7 +73,7 @@ a {
   cursor: pointer;
 }
 
-.next_btn{
+.next_btn {
   position: absolute;
   top: 908px;
   left: 974px;
@@ -57,7 +81,7 @@ a {
   z-index: 2;
 }
 
-.info_image_1{
+.info_image_1 {
   position: absolute;
   top: 393px;
   left: 74px;
@@ -65,7 +89,7 @@ a {
   z-index: 2;
 }
 
-.info_image_1_text{
+.info_image_1_text {
   position: absolute;
   top: 784px;
   left: 85px;
@@ -73,7 +97,7 @@ a {
   z-index: 2;
 }
 
-.info_image_2{
+.info_image_2 {
   position: absolute;
   top: 1171px;
   left: 316px;
@@ -81,7 +105,7 @@ a {
   z-index: 2;
 }
 
-.info_image_2_text{
+.info_image_2_text {
   position: absolute;
   top: 1566px;
   left: 472px;
@@ -89,11 +113,10 @@ a {
   z-index: 2;
 }
 
-
 .dim {
   width: 270px;
   height: 102px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .stroke {

@@ -22,7 +22,7 @@ a {
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-color: rgb(76, 86, 83);
-  overflow : hidden;
+  overflow: hidden;
 }
 
 .home-btn {
@@ -49,7 +49,7 @@ a {
   cursor: pointer;
 }
 
-.info_image_1{
+.info_image_1 {
   position: absolute;
   top: 393px;
   left: 74px;
@@ -57,7 +57,7 @@ a {
   z-index: 2;
 }
 
-.info_image_1_text{
+.info_image_1_text {
   position: absolute;
   top: 784px;
   left: 85px;
@@ -65,7 +65,7 @@ a {
   z-index: 2;
 }
 
-.info_image_2{
+.info_image_2 {
   position: absolute;
   top: 1171px;
   left: 319px;
@@ -73,7 +73,7 @@ a {
   z-index: 2;
 }
 
-.info_image_2_text{
+.info_image_2_text {
   position: absolute;
   top: 1556px;
   left: 257px;
@@ -81,11 +81,10 @@ a {
   z-index: 2;
 }
 
-
 .dim {
   width: 270px;
   height: 102px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .stroke {
@@ -108,35 +107,26 @@ a {
   font-weight: 600;
   color: white;
 }
-
-@font-face {
-  font-family: "Pretendard";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
-    format("woff");
-  font-weight: 400;
-  font-style: normal;
+.selected-box {
+  position: relative;
+  top: 5px;
 }
 
-@font-face {
-  font-family: "Pretendard";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff")
-    format("woff");
-  font-weight: 500;
-  font-style: medium;
+.selected::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -3px;
+  width: 270px;
+  height: 102px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  z-index: 1;
 }
 
-@font-face {
-  font-family: "Pretendard";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff")
-    format("woff");
-  font-weight: 600;
-  font-style: semibold;
-}
-
-@font-face {
-  font-family: "Pretendard";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff")
-    format("woff");
-  font-weight: 700;
-  font-style: bold;
+.selected span {
+  position: absolute;
+  top: 26px;
+  left: 84px;
+  z-index: 2;
 }
