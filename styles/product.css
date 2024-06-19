@@ -18,7 +18,6 @@
 .selected span {
   position: absolute;
   top: 26px;
-  /* left: 603px; */
   left: 603px;
   z-index: 2;
 }
@@ -33,7 +32,7 @@
 .background-dim {
   width: 100%;
   height: 1584px;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .highlight {
@@ -44,7 +43,7 @@
 
 .description {
   font-size: 27px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1.6em;
   color: #ffffff;
 }
@@ -100,4 +99,8 @@
 .content-3 strong,
 .content-3 span {
   padding-right: 13px;
+}
+
+.content-3 span {
+  letter-spacing: -0.02em;
 }
