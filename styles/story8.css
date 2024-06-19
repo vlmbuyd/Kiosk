@@ -107,6 +107,10 @@ a {
   line-height: 1.6em;
 }
 
+.highlight {
+  color: #dc7553;
+}
+
 .info_image_2 {
   position: absolute;
   top: 1151px;
