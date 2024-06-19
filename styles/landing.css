@@ -1,60 +1,64 @@
+body {
+  background-color: black;
+}
+
 .landing-frame {
-    position: relative;
-    left: 50%;
-    height: 1920px;
-    width: 1080px;
-    font-size: 25pt;
-    transform: translate(-50%, 0);
+  position: relative;
+  left: 50%;
+  height: 1920px;
+  width: 1080px;
+  font-size: 25pt;
+  transform: translate(-50%, 0);
 }
 
 .landing-vid {
-    position: absolute;
-    height: 1920px;
-    width: 1080px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
+  position: absolute;
+  height: 1920px;
+  width: 1080px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 
 .landing-dim {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .landing-log {
-    position: absolute;
-    width: 532px;
-    height: 149px;
+  position: absolute;
+  width: 532px;
+  height: 149px;
 
-    left: 289px;
-    top: 550px;
+  left: 289px;
+  top: 550px;
 }
 
 .color-h1-1 {
-    position: absolute;
-    color: white;
+  position: absolute;
+  color: white;
 
-    left: 76px;
-    top: 900px;
+  left: 76px;
+  top: 900px;
 }
 
 .color-h1-2 {
-    position: absolute;
-    color: #9CC2CA;
+  position: absolute;
+  color: #9cc2ca;
 
-    left: 191px;
-    top: 1060px;
+  left: 191px;
+  top: 1060px;
 }
 
 .landing-frame p {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 30pt;
-    font-weight: 100;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30pt;
+  font-weight: 100;
 
-    left: 50%;
-    top: 1600px;
+  left: 50%;
+  top: 1600px;
 }
