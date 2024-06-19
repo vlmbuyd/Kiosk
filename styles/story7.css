@@ -32,6 +32,30 @@ a {
   cursor: pointer;
 }
 
+.selected-box {
+  position: relative;
+  top: 5px;
+}
+
+.selected::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -3px;
+  width: 270px;
+  height: 102px;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  z-index: 1;
+}
+
+.selected span {
+  position: absolute;
+  top: 26px;
+  left: 84px;
+  z-index: 2;
+}
+
 .background::before {
   content: "";
   position: absolute;
