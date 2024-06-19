@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Story7 Page</title>
-    <link rel="stylesheet" href="./styles/story7.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="styles/story7.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <script src="scripts/story7.js" defer></script>
-    <!-- p5.js 스케치 파일 -->
   </head>
   <body>
     <div class="frame">
@@ -24,12 +22,14 @@
             <span>Story</span>
           </a>
           <a class="dim nav-btn" href="./story7.html">Parley</a>
-          <a class="dim nav-btn stroke" href="">Product</a>
+          <a class="dim nav-btn stroke" href="./product.html">Product</a>
           <a class="dim nav-btn stroke" href="">Event</a>
         </nav>
-        <div class="background" alt="background" id="storybackground">
-          <img src="images/story_background.png" />
-        </div>
+
+        <video class="story_vid" autoplay muted loop>
+          <source src="videos/story_video.mp4" type="video/mp4" />
+        </video>
+        <div class="story-dim"></div>
 
         <div class="next_btn">
           <img src="images/right-arrow.png" alt="next_btn" id="next_btn" />
@@ -37,23 +37,23 @@
         <div class="info_image_1">
           <img src="images/story7_img1.png" alt="img1" id="info_image_1" />
         </div>
-        <div class="info_image_1_text">
-          <img
-            src="images/story7_img1_text.png"
-            alt="img1_text"
-            id="info_image_1_text"
-          />
-        </div>
+
+        <h1 class="info_image_1_title">ADIDAS X PARLEY</h1>
+        <h5 class="info_image_1_text">
+          2015년 지구의 날, adidas와 Parley는 해양 보호를 위한<br />
+          혁신적인 파트너십을 발표했습니다.<br />
+          제품 개발로 해양보호에 앞장서고 있습니다.
+        </h5>
         <div class="info_image_2">
           <img src="images/story7_img2.png" alt="img2" id="info_image_2" />
         </div>
-        <div class="info_image_2_text">
-          <img
-            src="images/story7_img2_text.png"
-            alt="img2_text"
-            id="info_image_2_text"
-          />
-        </div>
+        <h1 class="info_image_2_title">해양 폐기물로 부터의 변화</h1>
+        <h5 class="info_image_2_text">
+          adidas와 Parley는 플라스틱 쓰레기 외에도<br />
+          유령 그물과 같은 해양 폐기물을 재활용하여<br />
+          업사이클링을 제작함으로써<br />
+          해양 생태계 보호에 기여하고 있습니다.
+        </h5>
       </div>
     </div>
   </body>
