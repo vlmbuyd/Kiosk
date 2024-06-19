@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+    background-color: black;
 }
 
 .landing-frame {
@@ -21,10 +21,10 @@ body {
 }
 
 .landing-dim {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 .landing-log {
@@ -36,20 +36,32 @@ body {
   top: 550px;
 }
 
-.color-h1-1 {
-  position: absolute;
-  color: white;
+.color-h2-1 {
+    position: absolute;
+    color: white;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: lighter;
+    white-space: nowrap;
+    letter-spacing: -3px;
+    word-spacing: -28px;
+    font-size: 43.5pt;
 
-  left: 76px;
-  top: 900px;
+    left: 40.5px;
+    top: 900px;
 }
 
-.color-h1-2 {
-  position: absolute;
-  color: #9cc2ca;
+.color-h2-2 {
+    position: absolute;
+    color: #9CC2CA;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: lighter;
+    white-space: nowrap;
+    letter-spacing: -1px;
+    word-spacing: -25px;
+    font-size: 43.5pt;
 
-  left: 191px;
-  top: 1060px;
+    left: 154.5px;
+    top: 1060px;
 }
 
 .landing-frame p {
