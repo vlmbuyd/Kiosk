@@ -1,5 +1,12 @@
 body {
-    background-color: black;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.frame {
+  display: flex;
+  align-items: center;
 }
 
 .landing-frame {
@@ -21,10 +28,10 @@ body {
 }
 
 .landing-dim {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
 .landing-log {
@@ -37,31 +44,31 @@ body {
 }
 
 .color-h2-1 {
-    position: absolute;
-    color: white;
-    font-family: "Rubik Mono One", monospace;
-    font-weight: lighter;
-    white-space: nowrap;
-    letter-spacing: -3px;
-    word-spacing: -28px;
-    font-size: 43.5pt;
+  position: absolute;
+  color: white;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: lighter;
+  white-space: nowrap;
+  letter-spacing: -3px;
+  word-spacing: -28px;
+  font-size: 43.5pt;
 
-    left: 40.5px;
-    top: 900px;
+  left: 40.5px;
+  top: 900px;
 }
 
 .color-h2-2 {
-    position: absolute;
-    color: #9CC2CA;
-    font-family: "Rubik Mono One", monospace;
-    font-weight: lighter;
-    white-space: nowrap;
-    letter-spacing: -1px;
-    word-spacing: -25px;
-    font-size: 43.5pt;
+  position: absolute;
+  color: #9cc2ca;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: lighter;
+  white-space: nowrap;
+  letter-spacing: -1px;
+  word-spacing: -25px;
+  font-size: 43.5pt;
 
-    left: 154.5px;
-    top: 1035px;
+  left: 154.5px;
+  top: 1035px;
 }
 
 .landing-frame p {
