@@ -1,7 +1,7 @@
 # Adidas X Parley
 
 ## Landing
-![랜딩페이지](https://github.com/vlmbuyd/kiosk/assets/157789110/21b82d96-331e-4d4f-a707-262689a91205)
+<img src="https://github.com/vlmbuyd/kiosk/assets/157789110/21b82d96-331e-4d4f-a707-262689a91205" width="405" height="720"/>
 
 ## Story
 ![스토리 페이지1](https://github.com/vlmbuyd/kiosk/assets/157789110/876e71cf-871f-4bfa-a1dd-58c4336a6ccc)
